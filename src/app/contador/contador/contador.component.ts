@@ -1,7 +1,7 @@
-import {Component} from '@angular/core';  
+import {Component} from '@angular/core';
 @Component({
-    selector:'app-contador',  
-    styleUrls: ['./app.component.css'],
+    selector:'app-contador',
+    styleUrls: ['../../app.component.css'],
     template: `<h1>{{title}}</h1> <h3>La base es: <strong>{{base}}</strong>
         </h3>
     <button (click)="acumular(true)"> +{{base}} </button>
@@ -14,10 +14,10 @@ export class ContadorComponent{
     public base: number=5;
     acumular(valr: boolean){
      if(valr){
-       this.numero+=this.base; 
+       this.numero+=this.base;
      }else{
-       this.numero-=this.base; 
+       this.numero-=this.base;
      }
-       
+
     }
 }

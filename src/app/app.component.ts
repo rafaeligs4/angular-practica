@@ -4,11 +4,11 @@ import { Component } from '@angular/core';
   //Selector es el nombre del componente que vamos
   //a  montar
   selector: 'app-root',
-  //template es para el componente 
+  //template es para el componente
   templateUrl: './app.component.html',
-  
+
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    
+
 }
