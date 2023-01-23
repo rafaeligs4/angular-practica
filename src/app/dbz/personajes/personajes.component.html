@@ -1,0 +1,8 @@
+<div class="col">
+    <h3>Personajes</h3>
+    <ul>
+        <li *ngFor="let psj of personajes">
+        {{psj.nombre}}-{{psj.edad | number}}    
+        </li>
+    </ul>
+</div>
