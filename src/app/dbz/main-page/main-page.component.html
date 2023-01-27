@@ -1,14 +1,14 @@
 <h1>Dragon Ball Z</h1>
-<h1>(Realmente la Z es un 2)</h1> 
+<h1>(Realmente la Z es un 2)</h1>
 <div class="row">
    <app-personajes
    [personajes]="personajes"
    ></app-personajes>
     <div class="col">
-    <app-agregar 
-    [personajes]="personajes"
+    <app-agregar
+    (onNuevoPersonaje)="agregarNuevoPsj($event)"
     [nuevo]="nuevo"
-    ></app-agregar>        
+    ></app-agregar>
     </div>
 
 </div>
